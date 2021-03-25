@@ -1,0 +1,66 @@
+h1{
+    color : orange  
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header *{
+    margin: 30px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: #783264;
+    padding: 25px;
+    margin: 10px;
+}
+
+a:link{
+    color:aqua;
+}
+a:visited{
+    color:aquamarine;
+}
+a:hover{
+    color: chartreuse   ;
+}
+.menu{
+    color: cornsilk;
+    margin: 10px;
+}
+.menu a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item img{
+    opacity:1;
+}
+.item:hover img{
+    opacity: 0.6;
+}
